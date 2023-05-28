@@ -14,10 +14,9 @@ public class Q3 {
 
     public boolean perebor(int numb) {
         for (int i = 0; i < list.size(); i++) {
-            if (list.get(i).equals(numb)) {
+            if (list.get(i)==numb) {
                 return true;
             }
-
         }
         return false;
     }
